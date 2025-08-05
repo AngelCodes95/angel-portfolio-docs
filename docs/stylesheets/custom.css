@@ -1,0 +1,122 @@
+/* Dynamic theme using pyramid portfolio colors */
+:root {
+  --pyramid-white: #ffffff;
+  --pyramid-orange: #ff6b35;
+  --pyramid-amber: #f7931e;
+  --pyramid-yellow: #ffd100;
+  --pyramid-green: #90ee02;
+  --pyramid-teal: #00d4aa;
+  --pyramid-blue: #0099cc;
+  --pyramid-purple: #951b81;
+}
+
+/* Dynamic accent color animation for entire site */
+.md-header {
+  animation: headerColorCycle 12s infinite !important;
+}
+
+.md-header[data-md-state="shadow"] {
+  animation: headerColorCycle 12s infinite !important;
+}
+
+.md-tabs {
+  animation: headerColorCycle 12s infinite !important;
+}
+
+/* Navigation and accent elements - synced to 12s */
+.md-nav__link--active, .md-nav__link:hover {
+  animation: accentColorCycle 12s infinite;
+}
+
+/* Replace paragraph markers with wireframe triangles */
+.md-typeset .headerlink {
+  font-size: 0;
+}
+
+.md-typeset .headerlink::after {
+  content: "△";
+  font-size: 1.2rem;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  animation: pyramidColorCycle 12s infinite;
+}
+
+.md-typeset .headerlink:hover::after {
+  opacity: 1;
+  animation: pyramidColorCycleFast 2s infinite;
+}
+
+.md-typeset .headerlink:active::after {
+  transform: scale(1.2);
+  animation: pyramidColorCycleFast 0.5s infinite;
+}
+
+/* Pyramid portfolio color cycling animations - synced to 12s */
+@keyframes pyramidColorCycle {
+  0% { color: var(--pyramid-orange); }
+  14% { color: var(--pyramid-amber); }
+  28% { color: var(--pyramid-yellow); }
+  42% { color: var(--pyramid-green); }
+  56% { color: var(--pyramid-teal); }
+  70% { color: var(--pyramid-blue); }
+  84% { color: var(--pyramid-purple); }
+  100% { color: var(--pyramid-orange); }
+}
+
+@keyframes pyramidColorCycleFast {
+  0% { color: var(--pyramid-orange); }
+  16% { color: var(--pyramid-amber); }
+  33% { color: var(--pyramid-yellow); }
+  50% { color: var(--pyramid-green); }
+  66% { color: var(--pyramid-teal); }
+  83% { color: var(--pyramid-blue); }
+  100% { color: var(--pyramid-purple); }
+}
+
+@keyframes headerColorCycle {
+  0% { background-color: rgba(255, 107, 53, 0.6); }
+  14% { background-color: rgba(247, 147, 30, 0.6); }
+  28% { background-color: rgba(255, 209, 0, 0.6); }
+  42% { background-color: rgba(144, 238, 2, 0.6); }
+  56% { background-color: rgba(0, 212, 170, 0.6); }
+  70% { background-color: rgba(0, 153, 204, 0.6); }
+  84% { background-color: rgba(149, 27, 129, 0.6); }
+  100% { background-color: rgba(255, 107, 53, 0.6); }
+}
+
+@keyframes accentColorCycle {
+  0% { color: var(--pyramid-orange); }
+  14% { color: var(--pyramid-amber); }
+  28% { color: var(--pyramid-yellow); }
+  42% { color: var(--pyramid-green); }
+  56% { color: var(--pyramid-teal); }
+  70% { color: var(--pyramid-blue); }
+  84% { color: var(--pyramid-purple); }
+  100% { color: var(--pyramid-orange); }
+}
+
+/* Fixed width tabs to prevent shifting */
+.md-tabs__link {
+  min-width: 90px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Easter egg hover text replacement */
+.md-tabs__item:nth-child(2) .md-tabs__link:hover {
+  font-size: 0;
+}
+
+.md-tabs__item:nth-child(2) .md-tabs__link:hover::after {
+  content: "Meat";
+  font-size: 0.8rem;
+}
+
+.md-tabs__item:nth-child(3) .md-tabs__link:hover {
+  font-size: 0;
+}
+
+.md-tabs__item:nth-child(3) .md-tabs__link:hover::after {
+  content: "Potatoes";
+  font-size: 0.8rem;
+}
