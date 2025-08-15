@@ -20,7 +20,7 @@ Yeoman generator implementing Screaming Architecture principles with opinionated
 
 ---
 
-## Together Calendar
+## Together, A Calendar App for 100Devs
 **Open Source MERN Stack Contributions**
 
 Contributed critical bug fixes to open source group calendar application for the 100Devs community. Resolved production OAuth authentication failures affecting user login in Fly.io deployment environment and restored essential session management functionality. Successfully merged multiple pull requests to production.
@@ -35,18 +35,28 @@ Contributed critical bug fixes to open source group calendar application for the
 
 ---
 
-## StayingInLJ Business CMS
-**Full-Stack Content Management System**
+## StayingInLJ - Social Commerce Platform
+**Full-Stack E-Commerce Application**
 
-Custom content management system developed for local business client to manage vintage product inventory. Implemented secure authentication, role-based access control, and comprehensive CRUD operations for product catalog management. Deployed to production with image optimization and responsive design.
+Vintage furniture marketplace combining social media engagement with e-commerce functionality. Serves San Diego vintage business with nationwide reach through online sales and physical retail presence at Sea Hive Station.
 
-**Challenge Solved:** Created scalable inventory management solution for client with no existing digital catalog system, including secure image storage, user role management, and mobile-responsive interface for on-the-go inventory updates.
+**Challenge Solved:** Transformed a once exclusively offline vintage business operation into digital-first marketplace, enabling nationwide customer reach while preserving intimate browsing experience. Created unique platform combining Instagram-style social interactions with full e-commerce functionality.
 
-**Authentication Implementation:** Built hybrid authentication system supporting both Google OAuth 2.0 and local strategy registration, with granular role-based permissions where public users can sign up and engage (likes/comments) while administrative functions remain restricted to the business owner, ensuring security without limiting community interaction.
+**Business Impact:** Complete marketplace solution with automated order processing, Stripe payment integration, shipping automation via Shippo API, and multi-channel fulfillment (pickup, local delivery, nationwide shipping). Achieved enterprise functionality at no monthly infrastructure cost. Eventually with business growth premium tiers of the integrations will be necessary. 
 
-**Technologies:** Node.js, Express.js, MongoDB, EJS, Bootstrap, Cloudinary  
-**Key Features:** Google OAuth 2.0, admin image management, RESTful API, responsive design  
-**Security:** Passport.js authentication, bcryptjs hashing, session management
+![Portion of About page](assets/images/silj-main-feed.jpg)
+
+**Technical Architecture:**
+
+- **Backend:** Node.js/Express.js with MongoDB Atlas
+- **Payments:** Stripe API with guest checkout and shopping cart functionality  
+- **Media:** Cloudinary with owner-controlled crop positioning
+- **Security:** Helmet.js, rate limiting
+- **Infrastructure:** Render hosting with health monitoring and automated scaling
+
+**Key Features:** Polaroid-style social feed, individual like system, right-sliding comment panels, Google OAuth 2.0 + local auth, owner dashboard with business analytics, mobile-responsive glassmorphism design
+
+![Main Feed Example](assets/images/silj-about.jpg)
 
 ## Interactive Portfolio
 **3D Wireframe Pyramid Portfolio**
@@ -62,15 +72,16 @@ Unique portfolio experience featuring 3D wireframe pyramids with physics-based a
 
 ---
 
-## Community & Open Source
-
-**100Devs Community Contributions**
-- Active contributor and mentor in the 100Devs developer community
-- Focus on practical application development and supporting emerging developers
-- Collaborative projects and peer code reviews
-
 **Technical Focus Areas**
+
 - Architecture patterns and code organization over framework dependency
 - Developer experience optimization and tooling
 - Interactive web experiences and animation techniques
 - Modern JavaScript ecosystem and build automation
+
+**Interests & Currently learning**
+
+- CI/CD workflows
+- Yaml
+- Rust
+- Python
