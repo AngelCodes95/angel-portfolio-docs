@@ -10,6 +10,19 @@
   --pyramid-purple: #951b81;
 }
 
+/* Black background override */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #000000;
+  --md-default-bg-color--light: #000000;
+  --md-default-bg-color--lighter: #111111;
+  --md-default-bg-color--lightest: #1a1a1a;
+}
+
+/* Bold H1 titles */
+.md-typeset h1 {
+  font-weight: bold;
+}
+
 /* Dynamic accent color animation for entire site */
 .md-header {
   animation: headerColorCycle 12s infinite !important;
