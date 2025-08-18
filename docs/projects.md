@@ -5,17 +5,11 @@
 
 Yeoman generator implementing Screaming Architecture principles with opinionated tooling setup including Vite, ESLint, Prettier, and optional Tailwind CSS integration. Organizes code by business domain rather than technical layers, creating self-documenting project structures.
 
-**Challenge Solved**
+**Key Accomplishments**
 
-- Eliminated repetitive project setup and enforced consistent architecture patterns across React + TypeScript projects
-- Maintained flexibility for different use cases while standardizing development workflow
-- Reduced project initialization time from manual hours to automated minutes
-
-**Architecture Decision**
-
-- Implemented domain-driven folder structure where folder organization communicates application purpose
-- Replaced traditional technical layer organization with business domain focus
-- Improved code maintainability and developer onboarding efficiency
+- Developed automated scaffolding using Yeoman + Node.js eliminating repetitive React + TypeScript project setup
+- Implemented domain-driven architecture with ESLint 9 + Prettier 3.x enforcing consistent patterns across projects
+- Published NPM package with 300+ downloads reducing project initialization from hours to minutes
 
 ![Screaming-Bones Process Flow](assets/images/screaming-bones-flow.png)
 *CLI scaffolding tool process flow showing initialization, user input validation, configuration assembly, and project generation stages.*
@@ -35,18 +29,11 @@ Yeoman generator implementing Screaming Architecture principles with opinionated
 
 Contributed critical bug fixes to open source group calendar application for the 100Devs community. Resolved production OAuth authentication failures affecting user login in Fly.io deployment environment and restored essential session management functionality. Successfully merged multiple pull requests to production.
 
-**Challenge Solved**
+**Key Accomplishments**
 
-- Diagnosed and fixed OAuth authentication failures in production environment
-- Deployed local Fly.io instance with MongoDB cluster and Discord authentication to replicate production conditions
-- Accurately tested fixes before production deployment to prevent further service disruption
-
-**Technical Implementation**
-
-- Built local production environment replica using Fly.io CLI
-- Configured MongoDB Atlas connection strings and implemented Discord OAuth flow debugging
-- Isolated session persistence issues in containerized deployment environment
-- Collaborated with maintainers to ensure code quality and testing standards
+- Contributed OAuth authentication fixes using MERN stack resolving production failures in Discord community calendar
+- Deployed personal production environment on Fly.io with MongoDB cluster replicating production conditions for testing
+- Documented bug fixes and feature enhancements achieving successful Open Source contribution
 
 **Technical Details**
 
@@ -61,20 +48,11 @@ Contributed critical bug fixes to open source group calendar application for the
 
 Vintage furniture marketplace combining social media engagement with e-commerce functionality. Serves San Diego vintage business with nationwide reach through online sales and physical retail presence at Sea Hive Station.
 
-**Challenge Solved**
+**Key Accomplishments**
 
-- Transformed exclusively offline vintage business operation into digital-first marketplace
-- Enabled nationwide customer reach while preserving intimate browsing experience
-- Created unique platform combining Instagram-style social interactions with full e-commerce functionality
-- Maintained brand identity and customer experience during digital transformation
-
-**Business Impact**
-
-- Complete marketplace solution with automated order processing and multi-channel fulfillment
-- Stripe payment integration with guest checkout and shopping cart functionality
-- Shipping automation via Shippo API supporting pickup, local delivery, and nationwide shipping
-- Achieved enterprise functionality at minimal monthly infrastructure cost
-- Scalable architecture designed to support premium tier integrations as business grows
+- Built full stack E-commerce marketplace using Node.js/Express and MongoDB transforming offline vintage business to digital-first platform
+- Integrated Stripe payments and shipping APIs enabling complete transaction workflows with automated order processing
+- Implemented security measures using Helmet.js and rate limiting deployed on Render with Cloudinary CDN achieving enterprise functionality
 
 ![Portion of About page](assets/images/silj-main-feed.jpg)
 
@@ -101,19 +79,11 @@ Vintage furniture marketplace combining social media engagement with e-commerce 
 
 Unique portfolio experience featuring 3D wireframe pyramids with physics-based animations, SVG rendering, and responsive touch controls. Demonstrates advanced mathematical concepts and interactive web development techniques.
 
-**Challenge Solved**
+**Key Accomplishments**
 
-- Created memorable, interactive portfolio showcasing technical creativity and mathematical proficiency
-- Maintained professional presentation while implementing complex 3D animations
-- Achieved optimal performance across desktop and mobile devices without external libraries
-- Demonstrated advanced JavaScript capabilities through custom physics implementations
-
-**Technical Implementation**
-
-- Built custom 3D rendering engine using vanilla JavaScript and SVG
-- Implemented physics-based rotation and animation systems from mathematical fundamentals
-- Developed responsive touch control system for mobile device interaction
-- Optimized performance through efficient rendering loops and memory management
+- Built custom 3D rendering engine using vanilla JavaScript and SVG creating memorable interactive portfolio experience
+- Implemented physics-based rotation systems from mathematical fundamentals achieving optimal performance without external libraries
+- Developed responsive touch controls for mobile devices demonstrating advanced JavaScript capabilities through custom physics implementations
 
 **Technical Details**
 

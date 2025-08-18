@@ -16,22 +16,21 @@ My work spans React + TypeScript applications, developer tooling, and full-stack
 
 **Generator Screaming Bones**
 
-- Yeoman generator implementing Screaming Architecture principles for React + TypeScript projects
-- Opinionated tooling setup including Vite, ESLint, and Prettier integration
-- Enforces domain-driven folder structure for improved maintainability
+- Developed automated scaffolding using Yeoman + Node.js eliminating repetitive React + TypeScript project setup
+- Implemented domain-driven architecture with ESLint 9 + Prettier 3.x enforcing consistent patterns across projects
+- Published NPM package with 300+ downloads reducing project initialization from hours to minutes
 
 **StayingInLJ**
 
-- Full-stack e-commerce platform combining social engagement with marketplace functionality
-- Stripe payment integration with guest checkout and shopping cart
-- Cloudinary media management and automated shipping via Shippo API
-- Complete business solution with order processing and multi-channel fulfillment
+- Built full stack E-commerce marketplace using Node.js/Express and MongoDB transforming offline vintage business to digital-first platform
+- Integrated Stripe payments and shipping APIs enabling complete transaction workflows with automated order processing
+- Implemented security measures using Helmet.js and rate limiting deployed on Render with Cloudinary CDN achieving enterprise functionality
 
 **Together Calendar**
 
-- Open source MERN stack contributions to 100Devs community calendar application
-- Resolved critical OAuth authentication failures in production Fly.io deployment
-- Restored session management functionality affecting user login workflows
+- Contributed OAuth authentication fixes using MERN stack resolving production failures in Discord community calendar
+- Deployed personal production environment on Fly.io with MongoDB cluster replicating production conditions for testing
+- Documented bug fixes and feature enhancements achieving successful Open Source contribution
 
 
 ---
