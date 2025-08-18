@@ -5,7 +5,7 @@ This page will give you a glimpse in to my life that is not work related, or tec
 ---
  Born 1995, lived on the west coast until I was around 8 years old then moved to Omaha, Nebraska. 
 
-Here is the home in NE that I grew up in, you can tell who was in charge of mowing the lawn as a kid based on the angle of the photo I saved!
+Here is the home in NE that I grew up in, you can tell who was in charge of mowing the lawn as a kid based on the angle of the photo I took once upon a time and saved all these years.
 
 ![Childhood home in Nebraska](assets/images/childhood-home-ne.jpeg)
 
@@ -38,7 +38,7 @@ Whether it's debugging code or rebuilding an engine, the principle is the same.
 ---
 ## The Journey West
 
-In my early 20's I did what few midwestern kids dare to do... In 2017 I left for the big city! Moved to San Diego and have loved living in the La Jolla Village ever since! Pretty hard to wake up on the wrong side of bed when its sunny and 72°F almost everyday!
+In my early 20's I did what few midwestern kids dare to do... In 2018 I left for the big city! Moved to San Diego and have loved living in the La Jolla Village ever since! Pretty hard to wake up on the wrong side of bed when its sunny and 72°F almost everyday!
 
 ![Flying into San Diego](assets/images/arrival-to-san-diego.jpeg)
 
