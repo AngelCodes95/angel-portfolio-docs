@@ -40,6 +40,7 @@ nav:
   - Home: index.md
   - Projects: projects.md
   - Skills: skills.md
+  - Personal Life: personal-life.md
 
 markdown_extensions:
   - abbr

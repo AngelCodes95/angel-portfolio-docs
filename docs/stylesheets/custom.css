@@ -41,6 +41,12 @@
   animation: accentColorCycle 12s infinite;
 }
 
+/* Hide TOC completely */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+
 /* Replace paragraph markers with wireframe triangles */
 .md-typeset .headerlink {
   font-size: 0;
@@ -133,3 +139,32 @@
   content: "Potatoes";
   font-size: 0.8rem;
 }
+
+.md-tabs__item:nth-child(4) .md-tabs__link:hover {
+  font-size: 0;
+}
+
+.md-tabs__item:nth-child(4) .md-tabs__link:hover::after {
+  content: "Gravy";
+  font-size: 0.8rem;
+}
+
+/* Images - responsive height, centered */
+.md-content img {
+  height: 30vh;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Multiple images on same line - inline and centered */
+.md-content p:has(img + img) {
+  text-align: center;
+}
+
+.md-content p:has(img + img) img {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+

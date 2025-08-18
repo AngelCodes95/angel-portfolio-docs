@@ -51,4 +51,4 @@ Active member of the 100Devs developer community, contributing to projects and m
 
 ---
 
-[Click to go to the Home Section](index.md)
+[Click to go to the Personal Life Section](personal-life.md)
