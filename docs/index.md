@@ -26,11 +26,11 @@ My work spans React + TypeScript applications, developer tooling, and full-stack
 - Integrated Stripe payments and shipping APIs enabling complete transaction workflows with automated order processing
 - Implemented security measures using Helmet.js and rate limiting deployed on Render with Cloudinary CDN achieving enterprise functionality
 
-**Together Calendar**
+**Terminal Jarvis**
 
-- Contributed OAuth authentication fixes using MERN stack resolving production failures in Discord community calendar
-- Deployed personal production environment on Fly.io with MongoDB cluster replicating production conditions for testing
-- Documented bug fixes and feature enhancements achieving successful Open Source contribution
+- Built responsive landing page using HTML/CSS/JavaScript creating professional web presence for open source development tools project
+- Designed terminal-themed interface with animated loading sequences matching CLI application aesthetic and user experience
+- Maintain project direction through code reviews and architectural guidance supporting active developer community
 
 
 ---

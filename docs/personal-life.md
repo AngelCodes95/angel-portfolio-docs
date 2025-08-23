@@ -49,7 +49,7 @@ I like to spend my free moments balancing screentime with outdoor time. My favor
 Here's my beautiful lady and I on a hike along Torrey Pines. If you zoom in you can see gliders floating along the coast!
 ![Hiking at Torrey Pines](assets/images/torrey-pines-hike.jpeg)
 
-Speaking of delicious food spots... I have to make my way up to LA on ocasion to visit one of my favorite spots in all of California. King Taco! Off East 3rd st in East LA. BEST FOOD IN TOWN is right! 
+Speaking of delicious food spots... I have to make my way up to LA on occasion to visit one of my favorite spots in all of California. King Taco! Off East 3rd st in East LA. BEST FOOD IN TOWN is right! 
 
 ![King Taco sign](assets/images/king-taco-fav-foodplace.jpeg)
 

@@ -43,6 +43,32 @@ Contributed critical bug fixes to open source group calendar application for the
 
 ---
 
+## Terminal Jarvis - AI Development Tools Hub
+**Landing Page Development & Project Maintainer**
+
+[![Terminal Jarvis Logo](assets/images/terminal-jarvis-logo-banner.jpg){: style="width: 400px; max-width: 100%; height: auto; display: block;"}](https://github.com/BA-CalderonMorales/terminal-jarvis){: target="_blank"}
+
+Professional landing page and ongoing maintenance for CLI-based AI tool switcher. Terminal Jarvis unifies multiple AI coding assistants including Claude, Gemini, OpenCode, and LLM interfaces through a single terminal application.
+
+**Key Accomplishments**
+
+- Built responsive landing page using HTML/CSS/JavaScript creating professional web presence for open source AI tools project
+- Designed terminal-themed interface with animated loading sequences matching CLI application aesthetic and user experience
+- Maintain project direction through code reviews and architectural guidance supporting active developer community
+
+![Terminal Jarvis Dark Mode](assets/images/termina-jarvis-landing-main-intro.jpg){: style="width: 50%; display: inline-block; vertical-align: top; margin: 0;"}![Terminal Jarvis Light Mode](assets/images/light-mode-main-intro.jpg){: style="width: 50%; display: inline-block; vertical-align: top; margin: 0;"}
+
+*Landing page light and dark modes.*
+
+**Technical Implementation**
+
+- Frontend: Vanilla JavaScript, CSS animations, responsive design
+- Key Features: Terminal-style loading animations, mobile optimization, GitHub Pages deployment
+- Live Site: [angelcodes95.github.io/terminal-jarvis-landing](https://angelcodes95.github.io/terminal-jarvis-landing/)
+- Repository: [github.com/AngelCodes95/terminal-jarvis-landing](https://github.com/AngelCodes95/terminal-jarvis-landing)
+
+---
+
 ## StayingInLJ - Social Commerce Platform
 **Full-Stack E-Commerce Application**
 
