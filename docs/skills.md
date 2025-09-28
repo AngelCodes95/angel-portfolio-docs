@@ -14,7 +14,7 @@ Diverse background spanning Fortune 500 Manufacturing, sales, security, and clie
 
 ## Development Philosophy
 
-Best practices as foundational principles, with an "every problem has a solution" approach. I leverage modern development practices including Agentic Engineering and AI-assisted workflows to enhance productivity and code quality.
+Best practices as foundational principles, with an "every problem has a solution" approach. I explore AI-assisted development tools and workflows to enhance productivity and code quality.
 
 ## Technical Experience
 
@@ -32,18 +32,18 @@ Best practices as foundational principles, with an "every problem has a solution
 - RESTful API design and implementation
 - Real-time application features and authentication systems
 
-**Developer Tools**
+**Developer Tools & Systems**
 
 - Yeoman generator development and NPM package publishing
 - ESLint and Prettier configuration for code quality
 - Git workflow optimization and version control best practices
+- Go for CLI development and file processing applications
 
 ## Current Interests
 
 - Researching CI/CD automation and YAML configuration for deployment pipelines
 - Implementing Render health monitoring and database query optimization in production applications
 - Contributing to 100Devs community projects with code review and merge request processes
-- Infrastructure as code and deployment optimization
 
 ## Community Involvement
 

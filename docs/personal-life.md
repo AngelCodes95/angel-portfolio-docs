@@ -10,7 +10,7 @@ Here is the home in NE that I grew up in, you can tell who was in charge of mowi
 ![Childhood home in Nebraska](assets/images/childhood-home-ne.jpeg)
 
 ---
-What better way to get to know me than starting off with very embarassing childhood photos. Although, now that I am older (and bald) I am less embarassed by them and more envious of all that hair! The Phat-Farm shoes!!
+What better way to get to know me than starting off with very embarrassing childhood photos. Although, now that I am older (and bald) I am less embarrassed by them and more envious of all that hair! The Phat-Farm shoes!!
 
 ![Childhood portrait](assets/images/picture-day-embarassing.jpeg) ![YMCA soccer photo with 90s hair](assets/images/ymca-soccer-embarassing.jpeg)
 
@@ -75,7 +75,7 @@ I am no stranger to getting my hands dirty and working hard. One of my favorite 
 
 When I create a solution, solve a client's problem, fix a bug, refactor code successfully, see all my tests pass, or see "no errors" after I build something, WITH MY MIND, I finally get a dose of what I've been looking for. That is an indication to me that I am moving in the direction of what I am meant to be doing. 
 
-We are now friends. I know you read this. 
+Thank you for taking time to learn about me, please reach out to me directly via [LinkedIn](https://www.linkedin.com/in/angelthedev/) with any further questions.
 
 ---
 

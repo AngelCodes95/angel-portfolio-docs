@@ -166,5 +166,26 @@
 .md-content p:has(img + img) img {
   display: inline-block;
   margin: 0 0.5rem;
+  width: 48%;
+  height: auto;
+}
+
+/* Center linked banner images */
+.md-content p:has(a > img) {
+  text-align: center;
+}
+
+/* Mobile responsive images */
+@media (max-width: 768px) {
+  .md-content img {
+    height: 20vh;
+    max-width: 100%;
+  }
+
+  .md-content p:has(img + img) img {
+    width: 100%;
+    display: block;
+    margin: 0.5rem auto;
+  }
 }
 
