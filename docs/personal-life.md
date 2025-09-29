@@ -79,4 +79,4 @@ Thank you for taking time to learn about me, please reach out to me directly via
 
 ---
 
-[Click to go to the Home Section](index.md)
+[Click to go to the Featured Section](index.md)

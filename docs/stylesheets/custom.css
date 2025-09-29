@@ -1,6 +1,5 @@
 /* Dynamic theme using pyramid portfolio colors */
 :root {
-  --pyramid-white: #ffffff;
   --pyramid-orange: #ff6b35;
   --pyramid-amber: #f7931e;
   --pyramid-yellow: #ffd100;
@@ -25,15 +24,15 @@
 
 /* Dynamic accent color animation for entire site */
 .md-header {
-  animation: headerColorCycle 12s infinite !important;
+  animation: headerColorCycle 12s infinite;
 }
 
 .md-header[data-md-state="shadow"] {
-  animation: headerColorCycle 12s infinite !important;
+  animation: headerColorCycle 12s infinite;
 }
 
 .md-tabs {
-  animation: headerColorCycle 12s infinite !important;
+  animation: headerColorCycle 12s infinite;
 }
 
 /* Navigation and accent elements - synced to 12s */
@@ -41,9 +40,47 @@
   animation: accentColorCycle 12s infinite;
 }
 
-/* Hide TOC completely */
-.md-sidebar--secondary {
-  display: none !important;
+
+/* Hide primary sidebar on desktop, keep for mobile */
+@media (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+
+  .md-main__inner {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+  }
+
+  .md-content {
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 2rem;
+    float: none;
+    width: auto;
+  }
+}
+
+/* Reorder header items: favicon, search, theme toggle */
+.md-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.md-header__button {
+  order: 1;
+}
+
+.md-search {
+  order: 2;
+}
+
+.md-header__option {
+  order: 3;
 }
 
 
@@ -174,6 +211,17 @@
 .md-content p:has(a > img) {
   text-align: center;
 }
+
+/* Hide site title - show only logo */
+.md-header__title {
+  display: none;
+}
+
+/* Center navigation tabs */
+.md-tabs__list {
+  justify-content: center;
+}
+
 
 /* Mobile responsive images */
 @media (max-width: 768px) {
