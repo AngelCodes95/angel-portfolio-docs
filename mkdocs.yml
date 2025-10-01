@@ -9,14 +9,14 @@ theme:
   palette:
     # Dark mode - Sleek tech aesthetic
     - scheme: slate
-      primary: teal
+      primary: blue
       accent: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
     # Light mode - Clean minimal
     - scheme: default
-      primary: teal
+      primary: blue
       accent: deep orange
       toggle:
         icon: material/brightness-7

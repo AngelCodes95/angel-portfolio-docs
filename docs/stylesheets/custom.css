@@ -15,6 +15,9 @@
   --md-default-bg-color--light: #000000;
   --md-default-bg-color--lighter: #111111;
   --md-default-bg-color--lightest: #1a1a1a;
+  --md-primary-fg-color: #1877F2;
+  --md-primary-fg-color--light: #1877F2;
+  --md-primary-fg-color--dark: #0e5fc7;
 }
 
 /* Bold H1 titles */
@@ -22,22 +25,49 @@
   font-weight: bold;
 }
 
-/* Dynamic accent color animation for entire site */
+/* Override all content links to Facebook blue */
+.md-typeset a {
+  color: #1877F2;
+}
+
+.md-typeset a:hover {
+  color: #0e5fc7;
+}
+
+/* Static professional header color - Meta/Facebook blue */
 .md-header {
-  animation: headerColorCycle 12s infinite;
+  background-color: rgba(24, 119, 242, 0.6);
+}
+
+/* Mobile navigation drawer background */
+.md-nav--primary {
+  background-color: rgba(24, 119, 242, 0.6);
+}
+
+.md-nav--primary .md-nav__title {
+  background-color: rgba(24, 119, 242, 0.6);
 }
 
 .md-header[data-md-state="shadow"] {
-  animation: headerColorCycle 12s infinite;
+  background-color: rgba(24, 119, 242, 0.6);
 }
 
 .md-tabs {
-  animation: headerColorCycle 12s infinite;
+  background-color: rgba(24, 119, 242, 0.6);
 }
 
-/* Navigation and accent elements - synced to 12s */
+/* Mobile hamburger menu icon color */
+.md-header__button.md-icon {
+  color: #1877F2;
+}
+
+.md-header__button.md-icon svg {
+  fill: #1877F2;
+}
+
+/* Navigation accent color */
 .md-nav__link--active, .md-nav__link:hover {
-  animation: accentColorCycle 12s infinite;
+  color: #1877F2;
 }
 
 
@@ -94,61 +124,15 @@
   font-size: 1.2rem;
   opacity: 0.6;
   transition: all 0.3s ease;
-  animation: pyramidColorCycle 12s infinite;
+  color: #1877F2;
 }
 
 .md-typeset .headerlink:hover::after {
   opacity: 1;
-  animation: pyramidColorCycleFast 2s infinite;
 }
 
 .md-typeset .headerlink:active::after {
   transform: scale(1.2);
-  animation: pyramidColorCycleFast 0.5s infinite;
-}
-
-/* Pyramid portfolio color cycling animations - synced to 12s */
-@keyframes pyramidColorCycle {
-  0% { color: var(--pyramid-orange); }
-  14% { color: var(--pyramid-amber); }
-  28% { color: var(--pyramid-yellow); }
-  42% { color: var(--pyramid-green); }
-  56% { color: var(--pyramid-teal); }
-  70% { color: var(--pyramid-blue); }
-  84% { color: var(--pyramid-purple); }
-  100% { color: var(--pyramid-orange); }
-}
-
-@keyframes pyramidColorCycleFast {
-  0% { color: var(--pyramid-orange); }
-  16% { color: var(--pyramid-amber); }
-  33% { color: var(--pyramid-yellow); }
-  50% { color: var(--pyramid-green); }
-  66% { color: var(--pyramid-teal); }
-  83% { color: var(--pyramid-blue); }
-  100% { color: var(--pyramid-purple); }
-}
-
-@keyframes headerColorCycle {
-  0% { background-color: rgba(255, 107, 53, 0.6); }
-  14% { background-color: rgba(247, 147, 30, 0.6); }
-  28% { background-color: rgba(255, 209, 0, 0.6); }
-  42% { background-color: rgba(144, 238, 2, 0.6); }
-  56% { background-color: rgba(0, 212, 170, 0.6); }
-  70% { background-color: rgba(0, 153, 204, 0.6); }
-  84% { background-color: rgba(149, 27, 129, 0.6); }
-  100% { background-color: rgba(255, 107, 53, 0.6); }
-}
-
-@keyframes accentColorCycle {
-  0% { color: var(--pyramid-orange); }
-  14% { color: var(--pyramid-amber); }
-  28% { color: var(--pyramid-yellow); }
-  42% { color: var(--pyramid-green); }
-  56% { color: var(--pyramid-teal); }
-  70% { color: var(--pyramid-blue); }
-  84% { color: var(--pyramid-purple); }
-  100% { color: var(--pyramid-orange); }
 }
 
 /* Fixed width tabs to prevent shifting */
