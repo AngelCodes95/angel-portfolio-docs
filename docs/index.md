@@ -1,3 +1,8 @@
+---
+title: Angel Vazquez | Full-Stack Developer | La Jolla, CA
+description: Software Engineer | Open Source Contributor | Maintainer of Terminal Jarvis | Agent Augmented Development
+---
+
 # Angel Vazquez | Full-Stack Developer | La Jolla, CA
 
 

@@ -1,9 +1,10 @@
 site_name: Angel Vazquez - Developer Portfolio
 site_url: https://portfolio.angel-vazquez.com
-site_description: React + TypeScript developer specializing in developer tooling, interactive experiences, and MERN stack applications
+site_description: Software Engineer | Open Source Contributor | Maintainer of Terminal Jarvis | Agent Augmented Development
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/favicon.png
   favicon: assets/favicon.png
   palette:

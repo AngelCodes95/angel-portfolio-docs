@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta property="og:title" content="Angel Vazquez | Full-Stack Developer | La Jolla, CA">
+  <meta property="og:description" content="Software Engineer | Open Source Contributor | Maintainer of Terminal Jarvis | Agent Augmented Development">
+  <meta property="og:url" content="{{ config.site_url }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Angel Vazquez | Full-Stack Developer | La Jolla, CA">
+  <meta name="twitter:description" content="Software Engineer | Open Source Contributor | Maintainer of Terminal Jarvis | Agent Augmented Development">
+  {{ super() }}
+{% endblock %}
