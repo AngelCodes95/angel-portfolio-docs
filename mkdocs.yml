@@ -8,20 +8,20 @@ theme:
   logo: assets/favicon.png
   favicon: assets/favicon.png
   palette:
-    # Dark mode - Inferno theme
+    # Dark mode - Darkness theme
     - scheme: slate
       primary: deep orange
       accent: red
       toggle:
         icon: custom/devil-horns
-        name: Ascend to heaven
-    # Light mode - Heaven theme
+        name: Switch to light theme (a play on words with my name)
+    # Light mode - Lightness theme
     - scheme: default
       primary: amber
       accent: light blue
       toggle:
         icon: custom/angel-halo
-        name: Descend to hell
+        name: Switch to dark theme (a play on words with my name)
   
   features:
     - navigation.tabs
