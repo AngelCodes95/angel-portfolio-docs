@@ -31,9 +31,7 @@ description: Software Engineer | Open Source Contributor | Maintainer of Termina
 
 ## Technical Background
 
-Diverse problem solving experience from Fortune 500 manufacturing, sales, and security roles. Built expertise through practical application development, open source contributions, and active participation in the 100Devs developer community.
-
-- JavaScript, React, TypeScript, Go, and Node.js
+- TypeScript, React, Astro, Go, and Node.js
 - Production application development and deployment
 - Payment system integration and e-commerce solutions
 - Open source contributions and developer tooling

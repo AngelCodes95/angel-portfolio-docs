@@ -116,6 +116,38 @@ Yeoman generator implementing Screaming Architecture principles with opinionated
 
 ---
 
+# DEVx Network - Speaker Archive Feature
+**Open Source Collaboration** | **Pull Request:** [github.com/DEVxNetwork/devx.network/pull/39](https://github.com/DEVxNetwork/devx.network/pull/39)
+
+Designed and implemented speaker-focused archive page for San Diego tech community nonprofit. Contribution underwent architectural evolution through collaborative code review process, demonstrating adaptability and receptiveness to technical feedback. Feature enables community members to explore 31+ speaker talks from DEVx Network livestreams organized by year with direct YouTube integration.
+
+**Key Accomplishments**
+
+- Contributed React feature implementation through iterative code review process pivoting from livestream embeds to speaker-centric grid layout based on architectural guidance
+- Structured data model with 31 speaker entries including timestamp handling and YouTube URL parameters enabling precise navigation to individual talks
+- Collaborated with maintainers adapting design from archive-focused to engagement-driven approach directing traffic to YouTube channel for community growth
+
+![DEVx Network Speaker Archive Page](assets/images/hero-devx.png)
+![DEVx Network Speaker Grid Layout](assets/images/below-fold-devx.png)
+
+**Technical Implementation**
+
+- Frontend: React with TypeScript, responsive grid layout, year-based organization
+- Data Structure: Centralized talks.ts with speaker metadata and YouTube integration
+- Code Review: Multiple commit cycles incorporating feedback on component organization, memoization strategies, and visual design consistency
+
+**Collaboration Highlights**
+
+- Refactored initial implementation based on product direction feedback transforming embedded archive into speaker showcase
+- Adopted atomic commit conventions mid-project improving git history clarity
+- Discussed future enhancement strategies including YouTube API integration for dynamic data management
+- Maintained clear communication throughout review process demonstrating professional development practices
+
+**Technologies:** React, TypeScript, YouTube API Integration, Component Architecture
+**Status:** Merged to production October 2025
+
+---
+
 # Together, A Calendar App for 100Devs
 **Open Source MERN Stack Contributions**
 
@@ -141,12 +173,6 @@ Contributed critical bug fixes to open source group calendar application for the
 - Developer experience optimization and tooling
 - Go for CLI development and file processing
 - Modern JavaScript ecosystem and build automation
-
-**Currently learning**
-
-- CI/CD workflows
-- Rust
-- Python
 
 ---
 

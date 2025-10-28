@@ -170,25 +170,51 @@
   font-size: 0.8rem;
 }
 
-/* Images - responsive height, centered */
+/* Images - larger and responsive */
 .md-content img {
-  height: 30vh;
-  width: auto;
+  width: 100%;
+  height: auto;
   max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Multiple images on same line - inline and centered */
-.md-content p:has(img + img) {
+/* Smaller images for specific cases */
+.md-content img.small {
+  width: 50%;
+  max-width: 400px;
+}
+
+.md-content p:has(img.small + img.small) {
   text-align: center;
 }
 
-.md-content p:has(img + img) img {
+.md-content p:has(img.small + img.small) img.small {
   display: inline-block;
-  margin: 0 0.5rem;
+  width: 30%;
+  margin: 0.5rem;
+  vertical-align: top;
+}
+
+/* Asymmetric width images */
+.md-content p:has(img.small-50 + img.small-30) {
+  text-align: center;
+}
+
+.md-content img.small-50 {
+  display: inline-block;
   width: 48%;
-  height: auto;
+  margin: 0.5rem;
+  vertical-align: top;
+}
+
+.md-content img.small-30 {
+  display: inline-block;
+  width: 28%;
+  margin: 0.5rem;
+  vertical-align: top;
 }
 
 /* Center linked banner images */
@@ -210,14 +236,8 @@
 /* Mobile responsive images */
 @media (max-width: 768px) {
   .md-content img {
-    height: 20vh;
-    max-width: 100%;
-  }
-
-  .md-content p:has(img + img) img {
     width: 100%;
-    display: block;
-    margin: 0.5rem auto;
+    margin: 1rem auto;
   }
 }
 
