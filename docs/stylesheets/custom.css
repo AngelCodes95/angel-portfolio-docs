@@ -1,24 +1,24 @@
 /* ================================
-   LIGHTNESS & DARKNESS COLOR SCHEME
-   Light Mode: Celestial gold and sky
-   Dark Mode: Infernal flames and shadow
+   CHRISTMAS THEME
+   Light Mode: Frosted icicle winter
+   Dark Mode: Santa's workshop
    ================================ */
 
-/* Light Mode - Lightness Theme */
+/* Light Mode - Frosted Icicle */
 [data-md-color-scheme="default"] {
-  --md-default-bg-color: #fafaf8;
+  --md-default-bg-color: #f0f8ff;
   --md-default-bg-color--light: #ffffff;
-  --md-default-bg-color--lighter: #f5f5f3;
-  --md-default-bg-color--lightest: #efefed;
+  --md-default-bg-color--lighter: #e6f2ff;
+  --md-default-bg-color--lightest: #d9ecff;
 
-  /* Celestial gold primary */
-  --md-primary-fg-color: #d4af37;
-  --md-primary-fg-color--light: #e6c94f;
-  --md-primary-fg-color--dark: #b8941f;
+  /* Ice blue primary */
+  --md-primary-fg-color: #5dade2;
+  --md-primary-fg-color--light: #85c1e9;
+  --md-primary-fg-color--dark: #3498db;
 
-  /* Sky blue accent */
-  --md-accent-fg-color: #87ceeb;
-  --md-accent-fg-color--transparent: rgba(135, 206, 235, 0.1);
+  /* Deep sky blue accent */
+  --md-accent-fg-color: #00bfff;
+  --md-accent-fg-color--transparent: rgba(0, 191, 255, 0.1);
 
   /* Text colors */
   --md-default-fg-color: #2c2c2c;
@@ -27,25 +27,25 @@
   --md-default-fg-color--lightest: #8a8a8a;
 
   /* Code blocks */
-  --md-code-bg-color: #f5f5f3;
+  --md-code-bg-color: #e6f2ff;
   --md-code-fg-color: #2c2c2c;
 }
 
-/* Dark Mode - Darkness Theme */
+/* Dark Mode - Santa's Workshop */
 [data-md-color-scheme="slate"] {
-  --md-default-bg-color: #0a0a0a;
-  --md-default-bg-color--light: #1a0f0f;
-  --md-default-bg-color--lighter: #2a1515;
-  --md-default-bg-color--lightest: #3a1a1a;
+  --md-default-bg-color: #182a18;
+  --md-default-bg-color--light: #1e331e;
+  --md-default-bg-color--lighter: #243d24;
+  --md-default-bg-color--lightest: #2a462a;
 
-  /* Flame orange-red primary */
-  --md-primary-fg-color: #ff4500;
-  --md-primary-fg-color--light: #ff6347;
-  --md-primary-fg-color--dark: #cc3700;
+  /* Deep red primary */
+  --md-primary-fg-color: #c60f0f;
+  --md-primary-fg-color--light: #e31b1b;
+  --md-primary-fg-color--dark: #a00c0c;
 
-  /* Fire accent */
-  --md-accent-fg-color: #ff6347;
-  --md-accent-fg-color--transparent: rgba(255, 99, 71, 0.1);
+  /* Forest green accent */
+  --md-accent-fg-color: #27ae60;
+  --md-accent-fg-color--transparent: rgba(39, 174, 96, 0.1);
 
   /* Text colors */
   --md-default-fg-color: #e8e8e8;
@@ -54,7 +54,7 @@
   --md-default-fg-color--lightest: #888888;
 
   /* Code blocks */
-  --md-code-bg-color: #1a0f0f;
+  --md-code-bg-color: #1e331e;
   --md-code-fg-color: #e8e8e8;
 }
 
@@ -68,28 +68,28 @@
 
 /* Link colors - themed */
 [data-md-color-scheme="default"] .md-typeset a {
-  color: #d4af37;
+  color: #3498db;
 }
 
 [data-md-color-scheme="default"] .md-typeset a:hover {
-  color: #b8941f;
+  color: #5dade2;
 }
 
 [data-md-color-scheme="slate"] .md-typeset a {
-  color: #AE0505;
+  color: #c60f0f;
 }
 
 [data-md-color-scheme="slate"] .md-typeset a:hover {
-  color: #d90606;
+  color: #e31b1b;
 }
 
 /* ================================
    HEADER & NAVIGATION
    ================================ */
 
-/* Lightness theme header */
+/* Frosted icicle header */
 [data-md-color-scheme="default"] .md-header {
-  background: rgba(212, 175, 55, 0.3);
+  background: rgba(93, 173, 226, 0.2);
   backdrop-filter: blur(10px);
   box-shadow: none;
 }
@@ -99,9 +99,9 @@
   box-shadow: none;
 }
 
-/* Darkness theme header */
+/* Santa's workshop header */
 [data-md-color-scheme="slate"] .md-header {
-  background: rgba(139, 0, 0, 0.4);
+  background: rgba(198, 15, 15, 0.6);
   backdrop-filter: blur(10px);
   box-shadow: none;
 }
@@ -113,47 +113,47 @@
 
 /* Mobile navigation drawer */
 [data-md-color-scheme="default"] .md-nav--primary {
-  background: rgba(212, 175, 55, 0.3);
+  background: rgba(93, 173, 226, 0.2);
 }
 
 [data-md-color-scheme="default"] .md-nav--primary .md-nav__title {
-  background: rgba(212, 175, 55, 0.3);
+  background: rgba(93, 173, 226, 0.2);
 }
 
 [data-md-color-scheme="slate"] .md-nav--primary {
-  background: rgba(139, 0, 0, 0.4);
+  background: rgba(198, 15, 15, 0.3);
 }
 
 [data-md-color-scheme="slate"] .md-nav--primary .md-nav__title {
-  background: rgba(139, 0, 0, 0.4);
+  background: rgba(198, 15, 15, 0.3);
 }
 
 /* Mobile hamburger icon */
 [data-md-color-scheme="default"] .md-header__button.md-icon {
-  color: #d4af37;
+  color: #3498db;
 }
 
 [data-md-color-scheme="default"] .md-header__button.md-icon svg {
-  fill: #d4af37;
+  fill: #3498db;
 }
 
 [data-md-color-scheme="slate"] .md-header__button.md-icon {
-  color: #AE0505;
+  color: #c60f0f;
 }
 
 [data-md-color-scheme="slate"] .md-header__button.md-icon svg {
-  fill: #AE0505;
+  fill: #c60f0f;
 }
 
 /* Navigation accent */
 [data-md-color-scheme="default"] .md-nav__link--active,
 [data-md-color-scheme="default"] .md-nav__link:hover {
-  color: #d4af37;
+  color: #3498db;
 }
 
 [data-md-color-scheme="slate"] .md-nav__link--active,
 [data-md-color-scheme="slate"] .md-nav__link:hover {
-  color: #AE0505;
+  color: #c60f0f;
 }
 
 /* ================================
@@ -220,7 +220,7 @@
   font-size: 1.2rem;
   opacity: 0.6;
   transition: all 0.3s ease;
-  color: #d4af37;
+  color: #3498db;
 }
 
 [data-md-color-scheme="slate"] .md-typeset .headerlink::after {
@@ -228,7 +228,7 @@
   font-size: 1.2rem;
   opacity: 0.6;
   transition: all 0.3s ease;
-  color: #AE0505;
+  color: #c60f0f;
 }
 
 .md-typeset .headerlink:hover::after {
@@ -272,38 +272,41 @@
     margin: 0;
   }
 
-  /* Lightness theme buttons */
+  /* Frosted icicle buttons */
   [data-md-color-scheme="default"] .md-tabs__link {
-    background: rgba(212, 175, 55, 0.1);
-    border: 2px solid rgba(212, 175, 55, 0.3);
+    background: rgba(93, 173, 226, 0.1);
+    border: 2px solid rgba(93, 173, 226, 0.3);
+    color: #6a6a6a;
   }
 
   [data-md-color-scheme="default"] .md-tabs__link:hover {
-    background: rgba(212, 175, 55, 0.2);
-    border-color: rgba(212, 175, 55, 0.5);
+    background: rgba(93, 173, 226, 0.2);
+    border-color: rgba(93, 173, 226, 0.5);
     transform: translateY(-2px);
+    color: #4a4a4a;
   }
 
   [data-md-color-scheme="default"] .md-tabs__link--active {
-    background: rgba(212, 175, 55, 0.25);
-    border-color: rgba(212, 175, 55, 0.6);
+    background: rgba(93, 173, 226, 0.25);
+    border-color: rgba(93, 173, 226, 0.6);
+    color: #2c2c2c;
   }
 
-  /* Darkness theme buttons */
+  /* Santa's workshop buttons */
   [data-md-color-scheme="slate"] .md-tabs__link {
-    background: rgba(139, 0, 0, 0.15);
-    border: 2px solid rgba(174, 5, 5, 0.3);
+    background: rgba(198, 15, 15, 0.3);
+    border: 2px solid rgba(198, 15, 15, 0.5);
   }
 
   [data-md-color-scheme="slate"] .md-tabs__link:hover {
-    background: rgba(139, 0, 0, 0.25);
-    border-color: rgba(174, 5, 5, 0.5);
+    background: rgba(198, 15, 15, 0.3);
+    border-color: rgba(198, 15, 15, 0.6);
     transform: translateY(-2px);
   }
 
   [data-md-color-scheme="slate"] .md-tabs__link--active {
-    background: rgba(139, 0, 0, 0.3);
-    border-color: rgba(174, 5, 5, 0.6);
+    background: rgba(198, 15, 15, 0.4);
+    border-color: rgba(198, 15, 15, 0.7);
   }
 }
 
@@ -378,14 +381,14 @@
   border-radius: 8px;
 }
 
-/* Lightness theme image shadows */
+/* Frosted icicle image shadows */
 [data-md-color-scheme="default"] .md-content img {
-  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
+  box-shadow: 0 4px 12px rgba(93, 173, 226, 0.2);
 }
 
-/* Darkness theme image shadows */
+/* Santa's workshop image shadows */
 [data-md-color-scheme="slate"] .md-content img {
-  box-shadow: 0 4px 12px rgba(174, 5, 5, 0.3);
+  box-shadow: 0 4px 12px rgba(198, 15, 15, 0.3);
 }
 
 /* Small images */
@@ -452,4 +455,53 @@
     width: 100%;
     margin: 1rem auto;
   }
+}
+
+/* ================================
+   FOOTER - FROSTED GLASS
+   ================================ */
+
+/* Frosted glass footer - light mode */
+[data-md-color-scheme="default"] .md-footer {
+  background: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+[data-md-color-scheme="default"] .md-footer__inner {
+  background: transparent !important;
+}
+
+[data-md-color-scheme="default"] .md-footer-meta {
+  background: transparent !important;
+}
+
+[data-md-color-scheme="default"] .md-footer,
+[data-md-color-scheme="default"] .md-footer a,
+[data-md-color-scheme="default"] .md-footer__link,
+[data-md-color-scheme="default"] .md-footer svg,
+[data-md-color-scheme="default"] .md-footer__inner,
+[data-md-color-scheme="default"] .md-footer-meta,
+[data-md-color-scheme="default"] .md-footer-meta__inner,
+[data-md-color-scheme="default"] .md-footer .md-typeset,
+[data-md-color-scheme="default"] .md-footer * {
+  color: #6a6a6a !important;
+  fill: #6a6a6a !important;
+}
+
+/* Frosted glass footer - dark mode */
+[data-md-color-scheme="slate"] .md-footer {
+  background: transparent !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-footer__inner {
+  background: transparent !important;
+}
+
+[data-md-color-scheme="slate"] .md-footer-meta {
+  background: transparent !important;
 }

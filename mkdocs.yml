@@ -8,20 +8,20 @@ theme:
   logo: assets/favicon.png
   favicon: assets/favicon.png
   palette:
-    # Dark mode - Darkness theme
+    # Dark mode - Santa's Workshop
     - scheme: slate
-      primary: deep orange
-      accent: red
+      primary: red
+      accent: green
       toggle:
-        icon: custom/devil-horns
-        name: Switch to light theme (a play on words with my name)
-    # Light mode - Lightness theme
+        icon: custom/santa-hat
+        name: Switch to light mode
+    # Light mode - Frosted Icicle
     - scheme: default
-      primary: amber
-      accent: light blue
+      primary: light blue
+      accent: cyan
       toggle:
-        icon: custom/angel-halo
-        name: Switch to dark theme (a play on words with my name)
+        icon: custom/snowflake
+        name: Switch to dark mode
   
   features:
     - navigation.tabs
