@@ -30,14 +30,6 @@ description: Software Engineer | Open Source Contributor | Maintainer of Termina
 
 ---
 
-## Technical Background
-
-- TypeScript, React, Astro, Go, and Node.js
-- Production application development and deployment
-- Payment system integration and e-commerce solutions
-- Open source contributions and developer tooling
-- Database design and API development
-
 ## Connect
 
 **GitHub:** [github.com/angelcodes95](https://github.com/angelcodes95)  

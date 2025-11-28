@@ -77,10 +77,20 @@
 
 [data-md-color-scheme="slate"] .md-typeset a {
   color: #c60f0f;
+  text-shadow:
+    -0.2px -0.2px 0 #fff,
+    0.2px -0.2px 0 #fff,
+    -0.2px 0.2px 0 #fff,
+    0.2px 0.2px 0 #fff;
 }
 
 [data-md-color-scheme="slate"] .md-typeset a:hover {
   color: #e31b1b;
+  text-shadow:
+    -0.2px -0.2px 0 #fff,
+    0.2px -0.2px 0 #fff,
+    -0.2px 0.2px 0 #fff,
+    0.2px 0.2px 0 #fff;
 }
 
 /* ================================
@@ -388,7 +398,7 @@
 
 /* Santa's workshop image shadows */
 [data-md-color-scheme="slate"] .md-content img {
-  box-shadow: 0 4px 12px rgba(198, 15, 15, 0.3);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
 }
 
 /* Small images */
