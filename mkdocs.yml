@@ -37,8 +37,8 @@ extra_css:
   - stylesheets/custom.css
 
 nav:
-  - Featured: index.md
-  - Projects: projects.md
+  - Highlights: index.md
+  - Experience: experience.md
   - Skills: skills.md
   - Personal Life: personal-life.md
 

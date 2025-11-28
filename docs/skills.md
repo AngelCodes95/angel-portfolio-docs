@@ -16,13 +16,14 @@ Best practices as foundational principles, with an "every problem has a solution
 - Astro for static site generation and content-focused applications
 - Vite for optimized build processes and development workflow
 - Responsive design and mobile optimization
-- SVG rendering and custom animation systems
 
 **Backend Systems**
 
 - Node.js with Express.js for scalable server applications
+- Serverless functions with Netlify Functions for backend operations
 - MongoDB and Supabase for database management
 - Stripe API for payment processing and checkout workflows
+- Email integration with Resend API for transactional messaging
 - Cloudinary for media management and optimization
 - RESTful API design and implementation
 - Authentication systems with Passport.js and OAuth

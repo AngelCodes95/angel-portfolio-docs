@@ -1,4 +1,4 @@
-**Projects:**
+**Experience:**
 
 # StayingInLJ - Social Commerce Platform
 **Full-Stack E-Commerce Application**
@@ -31,6 +31,42 @@ Vintage furniture marketplace combining social media engagement with e-commerce 
 
 ![Main Feed Example](assets/images/silj-about.jpg)
 
+---
+
+# Carmen's Cleaning - Professional Service Website
+**Lead Management System**
+
+[![Carmen's Cleaning Homepage](assets/images/ccleaning-hero.png)](https://carmens-cleaning.com)
+
+Professional bilingual cleaning service website for Omaha Nebraska market. Astro-powered application with React islands architecture featuring lead management system, email automation, and Google OAuth admin dashboard. Supports English and Spanish with client-side language switching and localStorage persistence.
+
+**Key Accomplishments**
+
+- Delivered production Astro + React application with Supabase PostgreSQL backend and Netlify serverless functions for business transitioning from 18 years offline-only operations
+- Architected lead management system with Resend email integration and Google OAuth admin dashboard enabling client to track quote requests and schedule appointments
+- Implemented bilingual English/Spanish support with auto-detection and localStorage persistence achieving seamless language switching without page reloads
+- Achieved 187 organic sessions and 2+ minute average engagement time within first month of launch without paid advertising demonstrating effective SEO and user experience design
+
+![Services Section](assets/images/ccleaning-services.png)
+![Quote Request Form](assets/images/ccleaning-quote.png)
+
+**Technical Implementation**
+
+- Frontend: Astro 5.x with React 19.x islands, TypeScript, Tailwind CSS 4.x
+- Backend: Netlify Functions (serverless), Supabase (PostgreSQL)
+- Authentication: Google OAuth 2.0 for admin access
+- Email: Resend API for automated lead notifications
+- Deployment: Netlify with CI/CD, environment variable management
+- Key Features: Bilingual form validation, CSV export, mobile-responsive design, admin dashboard
+- Performance: 100 desktop and 98 mobile PageSpeed scores through efficient Astro static generation and image optimization
+
+![Desktop PageSpeed Score](assets/images/ccleaning-desktip-pagespeed.png)
+![Mobile PageSpeed Score](assets/images/ccleaning-mobile-pagespeed.png)
+
+**Technologies:** Astro, React, TypeScript, Tailwind CSS, Supabase, Netlify, Google OAuth
+**Live Site:** [carmens-cleaning.com](https://carmens-cleaning.com)
+
+---
 
 # Contindex
 **A CLI Tool for AI Context Management**

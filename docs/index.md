@@ -6,7 +6,7 @@ description: Software Engineer | Open Source Contributor | Maintainer of Termina
 # Angel Vazquez | Full-Stack Developer | La Jolla, CA
 
 
-### Featured Projects 
+### Highlights 
 
 [**StayingInLJ**](https://stayinginlj.com)
 
@@ -14,11 +14,12 @@ description: Software Engineer | Open Source Contributor | Maintainer of Termina
 - Integrated Stripe payments and shipping APIs enabling complete transaction workflows with automated order processing
 - Implemented security measures using Helmet.js and rate limiting deployed on Render with Cloudinary CDN achieving enterprise functionality
 
-[**Contindex**](https://github.com/AngelCodes95/contindex)
+[**Carmen's Cleaning**](https://carmens-cleaning.com)
 
-- Developed CLI tool using Go for AI context file processing streamlining developer workflows with large codebases
-- Implemented efficient file handling and transformation algorithms reducing context preparation time for AI-assisted development
-- Built cross-platform binary distribution enabling seamless integration across development environments
+- Delivered production Astro + React application with Supabase backend and bilingual English/Spanish support for Omaha Nebraska service business
+- Architected lead management system with Netlify serverless functions, Resend email integration, and Google OAuth admin dashboard for client operations
+- Implemented client-side language detection with localStorage persistence achieving seamless bilingual user experience without page reloads
+- Achieved 187 organic sessions and 2+ minute average engagement time within first month of launch without paid advertising demonstrating effective SEO and user experience design
 
 [**Terminal Jarvis**](https://terminal-jarvis.com)
 
@@ -45,4 +46,4 @@ description: Software Engineer | Open Source Contributor | Maintainer of Termina
 
 ---
 
-[Click Here to go to the Projects Section](projects.md) 
+[Click Here to go to the Experience Section](experience.md) 
