@@ -8,19 +8,19 @@ theme:
   logo: assets/favicon.png
   favicon: assets/favicon.png
   palette:
-    # Dark mode - Santa's Workshop
+    # Dark mode - Monochrome
     - scheme: slate
-      primary: red
-      accent: green
+      primary: black
+      accent: grey
       toggle:
-        icon: custom/santa-hat
+        icon: material/weather-sunny
         name: Switch to light mode
-    # Light mode - Frosted Icicle
+    # Light mode - Monochrome
     - scheme: default
-      primary: light blue
-      accent: cyan
+      primary: white
+      accent: grey
       toggle:
-        icon: custom/snowflake
+        icon: material/weather-night
         name: Switch to dark mode
   
   features:
@@ -41,6 +41,7 @@ nav:
   - Experience: experience.md
   - Skills: skills.md
   - Personal Life: personal-life.md
+  - Back to Chat: https://angel-vazquez.com
 
 markdown_extensions:
   - abbr
